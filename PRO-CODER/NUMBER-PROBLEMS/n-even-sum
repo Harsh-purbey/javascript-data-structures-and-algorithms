@@ -1,0 +1,8 @@
+let n = 4;
+let evenSum = 0
+for (let i = 1; i <= n; i++) {
+	evenSum += (i * 2);
+}
+console.log(evenSum);
+
+console.log(n * (n + 1));
